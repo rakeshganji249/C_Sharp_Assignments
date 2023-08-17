@@ -1,0 +1,15 @@
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\bin\Debug\net6.0\StaticScope1.exe
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\bin\Debug\net6.0\StaticScope1.deps.json
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\bin\Debug\net6.0\StaticScope1.runtimeconfig.json
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\bin\Debug\net6.0\StaticScope1.dll
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\bin\Debug\net6.0\StaticScope1.pdb
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.csproj.AssemblyReference.cache
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.AssemblyInfoInputs.cache
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.AssemblyInfo.cs
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.csproj.CoreCompileInputs.cache
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.dll
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\refint\StaticScope1.dll
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.pdb
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\StaticScope1.genruntimeconfig.cache
+C:\Users\Rakesh Ganji\source\repos\StaticScope1\StaticScope1\obj\Debug\net6.0\ref\StaticScope1.dll

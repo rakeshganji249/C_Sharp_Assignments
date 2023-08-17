@@ -1,0 +1,15 @@
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\bin\Debug\net6.0\GenerationsTime.exe
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\bin\Debug\net6.0\GenerationsTime.deps.json
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\bin\Debug\net6.0\GenerationsTime.runtimeconfig.json
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\bin\Debug\net6.0\GenerationsTime.dll
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\bin\Debug\net6.0\GenerationsTime.pdb
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.csproj.AssemblyReference.cache
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.AssemblyInfoInputs.cache
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.AssemblyInfo.cs
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.csproj.CoreCompileInputs.cache
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.dll
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\refint\GenerationsTime.dll
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.pdb
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\GenerationsTime.genruntimeconfig.cache
+C:\Users\Rakesh Ganji\source\repos\GenerationsTime\GenerationsTime\obj\Debug\net6.0\ref\GenerationsTime.dll
