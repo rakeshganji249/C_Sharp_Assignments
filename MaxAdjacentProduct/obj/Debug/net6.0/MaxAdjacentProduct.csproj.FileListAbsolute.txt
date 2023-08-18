@@ -1,0 +1,15 @@
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.csproj.AssemblyReference.cache
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.AssemblyInfoInputs.cache
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.AssemblyInfo.cs
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.csproj.CoreCompileInputs.cache
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\bin\Debug\net6.0\MaxAdjacentProduct.exe
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\bin\Debug\net6.0\MaxAdjacentProduct.deps.json
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\bin\Debug\net6.0\MaxAdjacentProduct.runtimeconfig.json
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\bin\Debug\net6.0\MaxAdjacentProduct.dll
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\bin\Debug\net6.0\MaxAdjacentProduct.pdb
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.dll
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\refint\MaxAdjacentProduct.dll
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.pdb
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\MaxAdjacentProduct.genruntimeconfig.cache
+C:\Users\Rakesh Ganji\source\repos\MaxAdjacentProduct\obj\Debug\net6.0\ref\MaxAdjacentProduct.dll
