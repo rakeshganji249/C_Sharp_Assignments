@@ -1,19 +1,23 @@
 ﻿using System;
 
-
-
-
 namespace ScopeOfStaticVariable
 {
-    public class ScopeOfStaticVar
+    /// <summary>
+    /// Creates a static Variables and initializes them.
+    /// </summary>
+    public class Program
     {
-        public static int static_variable;
-        public static String static_variable_name;
+        public static int Id;
+        public static String UserName;
+
+        /// <summary>
+        /// Initializes the static variables and prints them
+        /// </summary>
         public static void Main(string[] args)
         {
-            ScopeOfStaticVar.static_variable = 24;
-            ScopeOfStaticVar.static_variable_name = "Rakesh";
-            Console.WriteLine("satic variables values before modifying from other .cs file is" + ScopeOfStaticVar.static_variable + ScopeOfStaticVar.static_variable_name);
+            Program.Id = 24;
+            Program.UserName = "Rakesh";
+            Console.WriteLine("satic variables values before modifying from other .cs file is" + Program.Id + Program.UserName);
 
         }
     }

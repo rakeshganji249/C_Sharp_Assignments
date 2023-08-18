@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\GenerationsTime\\GenerationsTime\\GenerationsTime.csproj",
+      "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\GenerationsTime\\GenerationsTime\\GenerationsTime.csproj",
       "projectName": "GenerationsTime",
-      "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\GenerationsTime\\GenerationsTime\\GenerationsTime.csproj",
+      "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\GenerationsTime\\GenerationsTime\\GenerationsTime.csproj",
       "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\GenerationsTime\\GenerationsTime\\obj\\",
+      "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\GenerationsTime\\GenerationsTime\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",
