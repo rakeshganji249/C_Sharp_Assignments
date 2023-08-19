@@ -1,0 +1,15 @@
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\bin\Debug\net6.0\FloatTobinaryAndSum.exe
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\bin\Debug\net6.0\FloatTobinaryAndSum.deps.json
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\bin\Debug\net6.0\FloatTobinaryAndSum.runtimeconfig.json
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\bin\Debug\net6.0\FloatTobinaryAndSum.dll
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\bin\Debug\net6.0\FloatTobinaryAndSum.pdb
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.csproj.AssemblyReference.cache
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.AssemblyInfoInputs.cache
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.AssemblyInfo.cs
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.csproj.CoreCompileInputs.cache
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.dll
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\refint\FloatTobinaryAndSum.dll
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.pdb
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\FloatTobinaryAndSum.genruntimeconfig.cache
+C:\Users\Rakesh Ganji\source\repos\FloatTobinaryAndSum\obj\Debug\net6.0\ref\FloatTobinaryAndSum.dll
