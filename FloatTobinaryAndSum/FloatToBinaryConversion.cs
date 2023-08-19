@@ -10,134 +10,134 @@
         /// </summary>
         /// <param name="value"></param>
         /// <returns> returnss the substring array</returns>
-        public string[] DivideFloatIntoSubstrings(float value)
+        public string[] DivideFloatIntoNumberSubParts(float value)
         {
-            string[] substrings = new string[2];
+            string[] numberSubParts = new string[2];
 
             string floatValueAsString = value.ToString();
 
             string[] subParts = floatValueAsString.Split('.');
 
-            substrings[0] = subParts[0];
+            numberSubParts[0] = subParts[0];
 
-            substrings[1] = subParts.Length > 1 ? subParts[1] : "0";
+            numberSubParts[1] = subParts.Length > 1 ? subParts[1] : "0";
 
-            return substrings;
+            return numberSubParts;
 
         }
 
         /// <summary>
         ///  Converts a decimal integer to its binary representation.
         /// </summary>
-        /// <param name="beforeDecima"></param>
+        /// <param name="beforePointNumber"></param>
         /// <returns></returns>
-        public string ConvertDecimalToBinary(int beforeDecima)
+        public string ConvertDecimalToBinary(int beforePointNumber)
         {
 
-            if (beforeDecima == 0)
+            if (beforePointNumber == 0)
 
                 return "0";
 
-            string binbeforedec = string.Empty;
+            string binaryBeforePoint = string.Empty;
 
-            while (beforeDecima > 0)
+            while (beforePointNumber > 0)
             {
 
-                int remainder = beforeDecima % 2;
+                int remainder = beforePointNumber % 2;
 
-                binbeforedec = remainder + binbeforedec;
+                binaryBeforePoint = remainder + binaryBeforePoint;
 
-                beforeDecima /= 2;
+                beforePointNumber /= 2;
             }
-            return binbeforedec;
+            return binaryBeforePoint;
         }
         /// <summary>
         /// Converts the fractional part of a decimal to its binary representation.
         /// </summary>
-        /// <param name="afterDecimal"></param>
+        /// <param name="afterPointNumber"></param>
         /// <returns></returns>
-        public string Afterpointtobin(int afterDecimal)
+        public string Afterpointtobin(int afterPointNumber)
         {
 
-            int reafterDecimal = afterDecimal;
+            int duplicateafterPointNumber = afterPointNumber;
 
-            string binAfterDec = String.Empty;
+            string binaryAfterPoint = String.Empty;
 
-            int lengthofbd = 0;
+            int lengthOfBinaryAfterPoint = 0;
 
-            while (reafterDecimal != 0)
+            while (duplicateafterPointNumber != 0)
             {
 
-                reafterDecimal = reafterDecimal / 10;
+                duplicateafterPointNumber = duplicateafterPointNumber / 10;
 
-                lengthofbd++;
+                lengthOfBinaryAfterPoint++;
             }
 
             for (int i = 0; i < 23; i++)
             {
 
-                afterDecimal = afterDecimal * 2;
+                afterPointNumber = afterPointNumber * 2;
 
-                int divisor = (int)Math.Pow(10, lengthofbd);
-                if ((afterDecimal / divisor) == 1)
+                int divisor = (int)Math.Pow(10, lengthOfBinaryAfterPoint);
+                if ((afterPointNumber / divisor) == 1)
                 {
-                    binAfterDec += '1';
+                    binaryAfterPoint += '1';
 
-                    string strafterDecimal = Convert.ToString(afterDecimal);
+                    string valueAfterPointNumber = Convert.ToString(afterPointNumber);
 
-                    string strafterDecimalsub = strafterDecimal.Substring(1, lengthofbd);
+                    string valueAfterPointNumbersub = valueAfterPointNumber.Substring(1, lengthOfBinaryAfterPoint);
 
-                    afterDecimal = Convert.ToInt32(strafterDecimalsub);
+                    afterPointNumber = Convert.ToInt32(valueAfterPointNumbersub);
 
                 }
                 else
                 {
-                    binAfterDec += "0";
+                    binaryAfterPoint += "0";
                 }
 
             }
-            return binAfterDec;
+            return binaryAfterPoint;
         }
 
         /// <summary>
         ///  Counts the number of binary digits before the decimal point.
         /// </summary>
-        /// <param name="binbeforedec"></param>
+        /// <param name="binaryBeforePoint"></param>
         /// <returns></returns>
-        public int CountOfBinaryBeforeDec(string binbeforedec)
+        public int CountOfBinaryBeforeDec(string binaryBeforePoint)
         {
-            int numofbinbefdc = 0;
-            foreach (char c in binbeforedec)
+            int NmuberOfBinaryBeforePoint = 0;
+            foreach (char c in binaryBeforePoint)
             {
 
-                numofbinbefdc++;
+                NmuberOfBinaryBeforePoint++;
 
             }
 
-            return numofbinbefdc;
+            return NmuberOfBinaryBeforePoint;
         }
 
         /// <summary>
         /// Combines the binary parts (sign, exponent, mantissa) of a floating-point value.
         /// </summary>
-        /// <param name="binbeforedec"></param>
-        /// <param name="binAfterDec"></param>
-        /// <param name="binmntc"></param>
-        /// <param name="binFloatmntc"></param>
-        public void Changebinbefandaft(string binbeforedec, string binAfterDec, out string binmntc, out string binFloatmntc)
+        /// <param name="binaryBeforePoint"></param>
+        /// <param name="binaryAfterPoint"></param>
+        /// <param name="binaryManttace"></param>
+        /// <param name="binaryAfterPointManttace"></param>
+        public void Changebinbefandaft(string binaryBeforePoint, string binaryAfterPoint, out string binaryManttace, out string binaryAfterPointManttace)
         {
 
-            int numofbinbefdc = CountOfBinaryBeforeDec(binbeforedec);
+            int NmuberOfBinaryBeforePoint = CountOfBinaryBeforeDec(binaryBeforePoint);
 
-            int exponentnum = numofbinbefdc + 127 - 1;
+            int exponentnum = NmuberOfBinaryBeforePoint + 127 - 1;
 
-            string binexponent = ConvertDecimalToBinary(exponentnum);
+            string binaryExponentum = ConvertDecimalToBinary(exponentnum);
 
-            string beforemntc = binbeforedec.Substring(1, numofbinbefdc - 1);
+            string beforemanntece = binaryBeforePoint.Substring(1, NmuberOfBinaryBeforePoint - 1);
 
-            binmntc = beforemntc + binAfterDec;
+            binaryManttace = beforemanntece + binaryAfterPoint;
 
-            binFloatmntc = binbeforedec + binAfterDec;
+            binaryAfterPointManttace = binaryBeforePoint + binaryAfterPoint;
         }
 
     }

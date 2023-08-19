@@ -45,28 +45,28 @@ namespace FloatToBinaryConversionAndSum
             binaryConverter.PadZeros(binFloatmntcFirst, binFloatmntcSecond, out paddedBinary1, out paddedBinary2);
 
             // Adding the padded binary numbers
-            string BinaddedNum = binaryConverter.AddBinary(paddedBinary1, paddedBinary2);
+            string binaryAddedNumber = binaryConverter.AddBinary(paddedBinary1, paddedBinary2);
 
             int maxLength = Math.Max(binFloatmntcFirst.Length, binFloatmntcSecond.Length);
 
             // Splitting the binary sum into integer and fractional parts
-            string[] BinaddedNumParts = binaryConverter.PointDivide(BinaddedNum);
+            string[] binaryAddedNumberParts = binaryConverter.PointDivide(binaryAddedNumber);
 
-            string BinaddedNumParts1 = BinaddedNumParts[0];
+            string binaryAddedNumberPartsOne = binaryAddedNumberParts[0];
 
-            string BinaddedNumParts2 = BinaddedNumParts[1];
+            string binaryAddedNumberPartstwo = binaryAddedNumberParts[1];
 
             // Converting binary integer part to decimal
-            int DecimalbeforePoint = binaryConverter.ConvertBinaryToDecimal(BinaddedNumParts1);
+            int DecimalbeforePoint = binaryConverter.ConvertBinaryToDecimal(binaryAddedNumberPartsOne);
 
             // Converting binary fractional part to decimal
-            double DecimalAfterPoint = binaryConverter.ConvertMantissaToDecimal(BinaddedNumParts2);
+            double DecimalAfterPoint = binaryConverter.ConvertMantissaToDecimal(binaryAddedNumberPartstwo);
 
             // Calculating the final sum of the two binary float values
-            double AddedNum = DecimalbeforePoint + DecimalAfterPoint;
+            double AddedNumber = DecimalbeforePoint + DecimalAfterPoint;
 
             // Displaying the final sum
-            Console.WriteLine(AddedNum);
+            Console.WriteLine(AddedNumber);
 
         }
 

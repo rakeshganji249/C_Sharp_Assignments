@@ -15,58 +15,54 @@ namespace FoatToBinaryConvertAndAdd
         /// </summary>
         /// <param name="value"></param>
         /// <param name="binaryFloatNumber"></param>
-        /// <param name="binFloatmntc"></param>
-        public void ConvertFloatToBinaryNumber(float value, out string binaryFloatNumber, out string binFloatmntc)
+        /// <param name="binaryAfterPointManttace"></param>
+        public void ConvertFloatToBinaryNumber(float value, out string binaryFloatNumber, out string binaryAfterPointManttace)
         {
 
-            string binmntc;
+            string binaryManttace;
 
             FloatToBinaryConversion binaryConversion = new();
 
-            string[] substrings = binaryConversion.DivideFloatIntoSubstrings(value);
+            string[] numberSubParts = binaryConversion.DivideFloatIntoNumberSubParts(value);
+                   
+            int beforeDeciamlNumber = Convert.ToInt32(numberSubParts[0]);
 
-            string beforeDecimal = substrings[0];
+            int afterDeciamlNumber = Convert.ToInt32(numberSubParts[1]);
 
-            string afterDecimal = substrings[1];
+            string binaryBeforePoint = binaryConversion.ConvertDecimalToBinary(beforeDeciamlNumber);
 
-            int beforeDeciamlint = Convert.ToInt32(substrings[0]);
+            string binaryAfterPoint = binaryConversion.Afterpointtobin(afterDeciamlNumber);
 
-            int afterDeciamlint = Convert.ToInt32(substrings[1]);
+            binaryConversion.Changebinbefandaft(binaryBeforePoint, binaryAfterPoint, out binaryManttace, out binaryAfterPointManttace);
 
-            string binbeforedec = binaryConversion.ConvertDecimalToBinary(beforeDeciamlint);
+            int numberOfBinaryBeforePoint = binaryConversion.CountOfBinaryBeforeDec(binaryBeforePoint);
 
-            string binAfterDec = binaryConversion.Afterpointtobin(afterDeciamlint);
+            int exponentnum = numberOfBinaryBeforePoint + 127 - 1;
 
-            binaryConversion.Changebinbefandaft(binbeforedec, binAfterDec, out binmntc, out binFloatmntc);
+            string binaryExponent = binaryConversion.ConvertDecimalToBinary(exponentnum);
 
-            int numofbinbefdc = binaryConversion.CountOfBinaryBeforeDec(binbeforedec);
-
-            int exponentnum = numofbinbefdc + 127 - 1;
-
-            string binexponent = binaryConversion.ConvertDecimalToBinary(exponentnum);
-
-            binaryFloatNumber = '0' + binexponent + binmntc;
+            binaryFloatNumber = '0' + binaryExponent + binaryManttace;
 
         }
 
         /// <summary>
         ///  Pads the binary mantissas of two floating-point numbers with zeros to equal lengths.
         /// </summary>
-        /// <param name="binFloatmntcFirst"></param>
-        /// <param name="binFloatmntcSecond"></param>
+        /// <param name="binaryAfterPointManttaceFirst"></param>
+        /// <param name="binaryAfterPointManttaceSecond"></param>
         /// <param name="paddedBinary1"></param>
         /// <param name="paddedBinary2"></param>
-        public void PadZeros(string binFloatmntcFirst, string binFloatmntcSecond, out string paddedBinary1, out string paddedBinary2)
+        public void PadZeros(string binaryAfterPointManttaceFirst, string binaryAfterPointManttaceSecond, out string paddedBinary1, out string paddedBinary2)
         {
 
-            int maxLength = Math.Max(binFloatmntcFirst.Length, binFloatmntcSecond.Length);
-            int zerosToAddToBinary1 = maxLength - binFloatmntcFirst.Length;
+            int maxLength = Math.Max(binaryAfterPointManttaceFirst.Length, binaryAfterPointManttaceSecond.Length);
+            int zerosToAddToBinary1 = maxLength - binaryAfterPointManttaceFirst.Length;
 
-            int zerosToAddToBinary2 = maxLength - binFloatmntcSecond.Length;
+            int zerosToAddToBinary2 = maxLength - binaryAfterPointManttaceSecond.Length;
 
-            paddedBinary1 = new string('0', zerosToAddToBinary1) + binFloatmntcFirst;
+            paddedBinary1 = new string('0', zerosToAddToBinary1) + binaryAfterPointManttaceFirst;
 
-            paddedBinary2 = new string('0', zerosToAddToBinary2) + binFloatmntcSecond;
+            paddedBinary2 = new string('0', zerosToAddToBinary2) + binaryAfterPointManttaceSecond;
         }
 
         /// <summary>
@@ -186,8 +182,9 @@ namespace FoatToBinaryConvertAndAdd
 
                 int digit = BinaddedNumParts2[i] - '0';
 
-                decimalValue += digit * Math.Pow(2, -(i + 1)); // Negative exponent for fractional part
-
+                // Negative exponent for fractional part
+                decimalValue += digit * Math.Pow(2, -(i + 1)); 
+                
             }
             return decimalValue;
 
