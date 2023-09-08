@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj": {}
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj": {
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj",
+        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj",
         "projectName": "FloatTobinaryAndSum",
-        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj",
+        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\FloatTobinaryAndSum\\FloatTobinaryAndSum.csproj",
         "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\FloatTobinaryAndSum\\obj\\",
+        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\FloatTobinaryAndSum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",
