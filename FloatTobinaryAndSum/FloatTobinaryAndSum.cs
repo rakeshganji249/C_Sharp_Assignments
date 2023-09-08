@@ -1,7 +1,7 @@
 ﻿using FloatTobinaryAndSum;
 
 
-namespace FoatToBinaryConvertAndAdd
+namespace FloatTobinaryAndSum
 {
 
     /// <summary>

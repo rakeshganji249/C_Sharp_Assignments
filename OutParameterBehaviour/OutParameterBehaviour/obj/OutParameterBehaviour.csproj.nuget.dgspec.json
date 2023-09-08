@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj": {}
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj": {
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj",
+        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj",
         "projectName": "OutParameterBehaviour",
-        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj",
+        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\OutParameterBehaviour\\OutParameterBehaviour\\OutParameterBehaviour.csproj",
         "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\OutParameterBehaviour\\OutParameterBehaviour\\obj\\",
+        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\OutParameterBehaviour\\OutParameterBehaviour\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",

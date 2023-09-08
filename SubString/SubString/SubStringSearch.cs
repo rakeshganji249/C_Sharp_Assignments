@@ -1,23 +1,23 @@
 ﻿using System;
 
-namespace SubPatternSearch
+namespace SubString
 {
     /// <summary>
     /// Searching of the substring in the main string.
     /// </summary>
-    internal class PatternSearch
+    internal class SubStringSearch
     {
         /// <summary>
         /// Checks for the pattern and its occurences.
         /// </summary>
-        /// <param name="InputPattern">The first String.</param>
-        /// <param name="SubPattern">The second String.</param>
-        public void CheckPattern(string InputPattern, string SubPattern)
+        /// <param name="inputString">The first String.</param>
+        /// <param name="subString">The second String.</param>
+        public void CheckPattern(string inputString, string subString)
         {
             
             Console.Write("Index positions = ");
 
-            int occurrences = GetIndexesOfPattern(InputPattern, SubPattern);
+            int occurrences = GetIndexesOfPattern(inputString, subString);
 
             if (occurrences > 0)
             {
@@ -37,24 +37,24 @@ namespace SubPatternSearch
         /// <summary>
         /// Checks for the subpattern is present in the inputpattern .
         /// </summary>
-        /// <param name="InputPattern">The first String.</param>
-        /// <param name="SubPattern">The second String.</param>
+        /// <param name="inputString">The first String.</param>
+        /// <param name="subString">The second String.</param>
         /// <returns>Number of times subpattern occurered.</returns>
-        public int GetIndexesOfPattern(string InputPattern,string SubPattern)
+        public int GetIndexesOfPattern(string inputString,string subString)
         {
             int occurrences = 0;
 
             // Iterate through the input pattern to find occurrences of the subpattern.
-            for (int i = 0; i <= InputPattern.Length - SubPattern.Length; i++)
+            for (int index1 = 0; index1 <= inputString.Length - subString.Length; index1++)
             {
                 bool isMatch = true;
 
                 // Compare each character of the subpattern with the characters in the input pattern.
-                for (int j = 0; j < SubPattern.Length; j++)
+                for (int index2 = 0; index2 < subString.Length; index2++)
                 {
 
                     // If a character doesn't match, the subpattern is not found at this position.
-                    if (InputPattern[i + j] != SubPattern[j])
+                    if (inputString[index1 + index2] != subString[index2])
                     {
                         isMatch = false;
 
@@ -68,7 +68,7 @@ namespace SubPatternSearch
                 if (isMatch)
                 {
                     occurrences++;
-                    Console.Write(i + " ");
+                    Console.Write(index1 + " ");
 
                 }
 

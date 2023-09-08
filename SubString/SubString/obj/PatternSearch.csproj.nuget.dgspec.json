@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\PatternSearch.csproj": {}
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\PatternSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\PatternSearch.csproj": {
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\PatternSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\PatternSearch.csproj",
+        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\PatternSearch.csproj",
         "projectName": "PatternSearch",
-        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\PatternSearch.csproj",
+        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\PatternSearch.csproj",
         "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\obj\\",
+        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",

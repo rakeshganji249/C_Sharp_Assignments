@@ -1,9 +1,8 @@
 ﻿using System;
-using FloatTobinaryAndSum;
-using FoatToBinaryConvertAndAdd;
 
 
-namespace FloatToBinaryConversionAndSum
+
+namespace FloatTobinaryAndSum
 {
 
     class Program

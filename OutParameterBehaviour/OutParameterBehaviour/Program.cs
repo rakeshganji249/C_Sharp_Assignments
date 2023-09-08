@@ -9,10 +9,10 @@ namespace OutParameterBehaviour
         /// <summary>
         /// Method to check the behaviour of out parameter
         /// </summary>
-        /// <param name="x"></param>
+        /// <param name="value"></param>
         public static void CheckBehaviour(out int value)
         {
-            //x = 2;
+            //value = 2;
             Console.WriteLine("method Initiated");
             Thread.Sleep(3000);
             value = 3;

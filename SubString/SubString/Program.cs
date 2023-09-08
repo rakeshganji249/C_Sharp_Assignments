@@ -1,7 +1,6 @@
 ﻿using System;
-using SubPatternSearch;
 
-namespace SearchingOfPattern
+namespace SubString
 {
 
     /// <summary>
@@ -17,16 +16,16 @@ namespace SearchingOfPattern
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the first string (S1):");
-            string InputPattern = Console.ReadLine();
+            string inputString = Console.ReadLine();
 
             Console.WriteLine("Enter the second string (S2):");
-            string SubPattern = Console.ReadLine();
+            string subString = Console.ReadLine();
 
             //Creating an instance to the PatternSearch
-            PatternSearch patternSearch = new PatternSearch();
+            SubStringSearch patternSearch = new SubStringSearch();
 
             //Calling the method CheckPattern()
-            patternSearch.CheckPattern(InputPattern, SubPattern);
+            patternSearch.CheckPattern(inputString, subString);
 
         }
     }

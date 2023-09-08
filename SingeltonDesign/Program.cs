@@ -1,22 +1,22 @@
 ﻿using System;
-using SingletonDesignPattern;
-namespace SingletonValidator
+
+namespace SingletonDesign
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Singleton firstEmployee = Singleton.GetInstance();
-            firstEmployee.PrintDetails("Rakesh",249,"ASE");
+            SingletonExample firstEmployee = SingletonExample.GetInstance();
+            firstEmployee.PrintUserDetails("Rakesh",249,"ASE");
 
-            Singleton secondEmployee = Singleton.GetInstance();
-            secondEmployee.PrintDetails("Ramu", 250, "ASE");
+            SingletonExample secondEmployee = SingletonExample.GetInstance();
+            secondEmployee.PrintUserDetails("Ramu", 250, "ASE");
 
-            Singleton thirdEmployee = Singleton.GetInstance();
-            thirdEmployee.PrintDetails("Amisha", 253, "ASE");
+            SingletonExample thirdEmployee = SingletonExample.GetInstance();
+            thirdEmployee.PrintUserDetails("Amisha", 253, "ASE");
 
-            Singleton fourthEmployee = Singleton.GetInstance();
-            fourthEmployee.PrintDetails("Rakesh", 255, "ASE");
+            SingletonExample fourthEmployee = SingletonExample.GetInstance();
+            fourthEmployee.PrintUserDetails("Rakesh", 255, "ASE");
 
             float floatValue = 123.456f;
             firstEmployee.ConvertFloatToBinary(floatValue);

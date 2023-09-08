@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenerationsTimeForInstance
+namespace GenerationsTime
 {
     /// <summary>
     /// Calculates the time to move between Gen0 to Gen1 and Gen1 to Gen2
@@ -10,7 +10,6 @@ namespace GenerationsTimeForInstance
         /// <summary>
         /// check the time taken for an object named instance to move between Generations.
         /// </summary>
-
         public void GenerateObjects()
         {
             //Instance is created for GeneratingInstances
@@ -33,7 +32,6 @@ namespace GenerationsTimeForInstance
             TimeSpan creationTime2 = DateTime.Now - startTime2;
 
             Console.WriteLine($"Time taken for object obj to move from Gen1 to Gen2: {creationTime2.TotalMilliseconds} ms");
-
         }
         /// <summary>
         /// Demonstrates a loop that creates instances till instance is gone to gen1.
@@ -46,15 +44,8 @@ namespace GenerationsTimeForInstance
                 GeneratingInstances instanceA = new();
                 GeneratingInstances instanceB = new();
                 GeneratingInstances instanceC = new();
-
             }
-
         }
-
-        /// <summary>
-        /// Demonstrates a loop that creates instances till instance is gone to gen2.
-        /// </summary>
-        /// <param name="instance">Object to check in whicjh generation is present</param>
         public void CreateInstanceForGen2(object instance)
         {
             while (GC.GetGeneration(instance) != 2)
@@ -64,8 +55,6 @@ namespace GenerationsTimeForInstance
                 GeneratingInstances instanceC = new();
 
             }
-
         }
-
     }
 }

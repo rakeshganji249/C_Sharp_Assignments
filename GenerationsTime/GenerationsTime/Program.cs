@@ -1,5 +1,4 @@
 ﻿using System;
-using GenerationsTimeForInstance;
 
 namespace GenerationsTime
 {

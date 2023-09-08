@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj": {}
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\SubString.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj": {
+    "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\SubString.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj",
-        "projectName": "SingeltonDesign",
-        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj",
+        "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\SubString.csproj",
+        "projectName": "SubString",
+        "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\SubString.csproj",
         "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\obj\\",
+        "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",

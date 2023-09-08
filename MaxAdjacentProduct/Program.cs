@@ -1,6 +1,4 @@
 ﻿using System;
-using AdjacentFourdigitProducts;
-
 
 namespace MaxAdjacentProduct
 {
@@ -16,9 +14,9 @@ namespace MaxAdjacentProduct
             Console.WriteLine("Enter a number:");
             string input = Console.ReadLine();
 
-            AdjacentdigitProduct checkLargestProduct = new AdjacentdigitProduct();
+            LargestAdjacentProductChecker checkLargestProduct = new ();
 
-            checkLargestProduct.CheckLargestProduct(input);
+            checkLargestProduct.CheckLargestAdjacentProduct(input);
         }
     }
 }

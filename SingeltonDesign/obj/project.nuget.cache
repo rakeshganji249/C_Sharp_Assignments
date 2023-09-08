@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OIDjbrh25lmV5QwCaompI6+8Km3rL5WSZFUNYMVe7Wnq/j+1NXyUP/kzl4dl19PNOVP71wjKL8QcXqM6z1IvAg==",
+  "dgSpecHash": "i+CttVa5tfl4Wb2hgj1jwxP3NbKeSV4jW7Ddu3DtUoFIazEUJlsi2Sc4a9bjxKFWgW6JMjMs51mmt8uPTiuKVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rakesh Ganji\\source\\repos\\SingeltonDesign\\SingeltonDesign.csproj",
+  "projectFilePath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

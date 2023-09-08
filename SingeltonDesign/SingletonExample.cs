@@ -1,24 +1,24 @@
 ﻿using System;
-namespace SingletonDesignPattern
+namespace SingletonDesign
 {
     /// <summary>
     /// A sealed class for implementing the Singleton pattern
     /// </summary>
-    public sealed class Singleton
+    public sealed class SingletonExample
     {
-        private static int counter = 0;
+        private static int instanceCounter = 0;
 
-        private static Singleton instance = null;
+        private static SingletonExample instance = null;
 
         /// <summary>
         /// Method to get the Singleton instance
         /// </summary>
         /// <returns>Returns the instance</returns>
-        public static Singleton GetInstance()
+        public static SingletonExample GetInstance()
         {
             if (instance == null)
             {
-                instance = new Singleton();
+                instance = new SingletonExample();
             }
 
             return instance;
@@ -27,23 +27,23 @@ namespace SingletonDesignPattern
         /// <summary>
         /// Private constructor to prevent direct instantiation
         /// </summary>
-        private Singleton()
+        private SingletonExample()
         {
-            counter++;
-            Console.WriteLine("Counter Value " + counter);
+            instanceCounter++;
+            Console.WriteLine("Counter Value " + instanceCounter);
         }
 
         /// <summary>
         /// Public method to print details using the Singleton instance
         /// </summary>
-        /// <param name="name"></param>
+        /// <param name="displayName"></param>
         /// <param name="id"></param>
         /// <param name="role"></param>
-        public void PrintDetails(string name,int id,string role)
+        public void PrintUserDetails(string displayName,int id,string role)
         {
-            Console.WriteLine(name);
-            Console.WriteLine(id);
-            Console.WriteLine(role);
+            Console.WriteLine("Display Name: " + displayName);
+            Console.WriteLine("ID: " + id);
+            Console.WriteLine("Role: " + role);
         }
         /// <summary>
         /// Public method to convert a float to its IEEE-754 binary representation using Single instance
@@ -76,8 +76,8 @@ namespace SingletonDesignPattern
             }
             string binaryRepresentation = $"{0}{Convert.ToString(exponent, 2).PadLeft(8, '0')}{mantissaBinary}";
 
-            Console.WriteLine(binaryRepresentation);
-            
+            Console.WriteLine("Binary Representation: " + binaryRepresentation);
+
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\SingeltonDesign\\SingeltonDesign.csproj",
+      "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj",
       "projectName": "SingeltonDesign",
-      "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\SingeltonDesign\\SingeltonDesign.csproj",
+      "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\SingeltonDesign.csproj",
       "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\SingeltonDesign\\obj\\",
+      "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\SingeltonDesign\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",

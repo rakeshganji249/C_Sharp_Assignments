@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\PatternSearch.csproj",
-      "projectName": "PatternSearch",
-      "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\PatternSearch.csproj",
+      "projectUniqueName": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\SubString.csproj",
+      "projectName": "SubString",
+      "projectPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\SubString.csproj",
       "packagesPath": "C:\\Users\\Rakesh Ganji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\PatternSearch\\PatternSearch\\obj\\",
+      "outputPath": "C:\\Users\\Rakesh Ganji\\source\\repos\\C#_git\\PatternSearch\\PatternSearch\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rakesh Ganji\\AppData\\Roaming\\NuGet\\NuGet.Config",
